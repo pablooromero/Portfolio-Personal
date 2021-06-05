@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+   <!--==================== SWIPER CSS ====================-->
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+   <!--==================== CSS ====================-->
+   <link rel="stylesheet" href="css/styles.css">
+
+   <title>Portfolio Personal</title>
+</head>
+
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#home" class="nav__logo">Pablo</a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list grid">
+               <li class="nav__item">
+                  <a href="#home" class="nav__link">
+                     <i class="uil uil-estate nav__icon"></i> Inicio
+                  </a>
+               </li>
+               <li class="nav__item">
+                  <a href="#about" class="nav__link">
+                     <i class="uil uil-user nav__icon"></i> Sobre Mi
+                  </a>
+               </li>
+               <li class="nav__item">
+                  <a href="#skills" class="nav__link">
+                     <i class="uil uil-file-alt nav__icon"></i> Habilidades
+                  </a>
+               </li>
+               <li class="nav__item">
+                  <a href="#services" class="nav__link">
+                     <i class="uil uil-briefcase-alt nav__icon"></i> Servicios
+                  </a>
+               </li>
+               <li class="nav__item">
+                  <a href="#portfolio" class="nav__link">
+                     <i class="uil uil-scenery nav__icon"></i> Proyectos
+                  </a>
+               </li>
+               <li class="nav__item">
+                  <a href="#contact" class="nav__link">
+                     <i class="uil uil-message nav__icon"></i> Contacto
+                  </a>
+               </li>
+            </ul>
+            <i class="uil uil-times nav__close" id="nav-close"></i>
+         </div>
+
+         <div class="nav__btns">
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="uil uil-apps"></i>
+            </div>
+         </div>
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+         <div class="home__container container grid">
+            <div class="home__content grid">
+               <div class="home__social">
+                  <a href="https://www.linkedin.com/in/pablo-romero-704129175/" class="home__social-icon"
+                     target="_blank">
+                     <i class="uil uil-linkedin"></i>
+                  </a>
+                  <a href="https://github.com/pablooromero" class="home__social-icon" target="_blank">
+                     <i class="uil uil-github"></i>
+                  </a>
+                  <a href="https://github.com/pablooromero" class="home__social-icon" target="_blank">
+                     <i class="uil uil-file-download-alt"></i>
+                  </a>
+               </div>
+               <div class="home__img">
+                  <div class="home__blob"><img src="img/vector-perfil.png"></div>
+
+               </div>
+
+               <div class="home__data">
+                  <h1 class="home__title">Hola, Soy Pablo</h1>
+                  <h3 class="home__subtitle">Frontend Developer</h3>
+                  <p class="home__description">Desarrollador Jr. en busca de mi primera experiencia en una empresa</p>
+                  <a href="#contact" class="button button--flex">
+                     Contactame <i class="uil uil-message button__icon"></i>
+                  </a>
+               </div>
+            </div>
+
+            <div class="home__scroll">
+               <a href="#contact" class="home__scroll-button button--flex">
+                  <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                  <span class="home__scroll-name">Ir a abajo</span>
+                  <i class="uil uil-arrow-down home__scroll-arrow"></i>
+               </a>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+         <h2 class="section__title">Sobre Mi</h2>
+         <span class="section__subtitle">My introduction</span>
+         <div class="about__container container grid">
+            <img src="img/nino.png" alt="" class="about__img">
+            <div class="about__data">
+               <p class="about__description">Desarrollador Web con 1 año de experiencia y en busca de nuevas
+                  oportunidades.</p>
+               <div class="about__buttons">
+                  <a download="" href="pdf/CV.pdf" class="button button--flex">
+                     Descargar CV <i class="uil uil-file-download-alt button__icon"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+         <h2 class="section__title">Skills</h2>
+         <span class="section__subtitle">Mis habilidades</span>
+
+         <div class="skills__container container grid">
+            <div>
+               <!-- Skill 1 -->
+               <div class="skills__content">
+                  <div class="skills__header">
+                     <i class="uil uil-brackets-curly skills__icon"></i>
+                     <div>
+                        <h3 class="skills__title">Frontend developer</h3>
+                        <span class="skills__subtitle">1 año de experiencia</span>
+                     </div>
+                  </div>
+                  <div class="skills__list grid">
+                     <div class="skills__data">
+                        <div class="skills__titles">
+                           <h3 class="skills__name">HTML</h3>
+                        </div>
+                        <div class="skills__bar">
+                           <span class="skills__percentage"></span>
+                        </div>
+                     </div>
+                     <div class="skills__data">
+                        <div class="skills__titles">
+                           <h3 class="skills__name">CSS</h3>
+                        </div>
+                        <div class="skills__bar">
+                           <span class="skills__percentage"></span>
+                        </div>
+                     </div>
+                     <div class="skills__data">
+                        <div class="skills__titles">
+                           <h3 class="skills__name">JavaScript</h3>
+                        </div>
+                        <div class="skills__bar">
+                           <span class="skills__percentage"></span>
+                        </div>
+                     </div>
+                     <div class="skills__data">
+                        <div class="skills__titles">
+                           <h3 class="skills__name">React</h3>
+                        </div>
+                        <div class="skills__bar">
+                           <span class="skills__percentage react"></span>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section">
+
+         <h2 class="section__title">Estudios</h2>
+         <span class="section__subtitle">Mi aprendizaje</span>
+
+         <div class="qualification__container container">
+            <div class="qualification__tabs">
+               <div class="qualification__button button--flex qualification__active" data-target="#education">
+                  <i class="uil uil-graduation-cap qualification__icon"></i>
+                  Educacion
+               </div>
+
+               <div class="qualification__button button--flex" data-target="#work">
+                  <i class="uil uil-briefcase-alt qualification__icon"></i>
+                  Trabajo
+               </div>
+            </div>
+
+            <div class="qualification__sections">
+               <!--Qualification Content 1-->
+               <div class="qualification__content qualification__active" data-content id="education">
+
+                  <!--Qualification 1-->
+                  <div class="qualification__data">
+                     <div>
+                        <h3 class="qualification__title">Técnico Universitario en Programación</h3>
+                        <span class="qualification__subtitle">Universidad Nacional de Salta</span>
+                        <div class="qualification__calendar">
+                           <i class="uil uil-calendar-alt"></i>
+                           2020 - En curso
+                        </div>
+                     </div>
+                     <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                     </div>
+                  </div>
+
+                  <!--Qualification 2-->
+                  <div class="qualification__data">
+                     <div></div>
+
+                     <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                     </div>
+
+                     <div>
+                        <h3 class="qualification__title">Técnico Superior en Programación</h3>
+                        <span class="qualification__subtitle">Instituto TECLAB</span>
+                        <div class="qualification__calendar">
+                           <i class="uil uil-calendar-alt"></i>
+                           2021 - En curso
+                        </div>
+                     </div>
+                  </div>
+
+                  <!--Qualification 3-->
+                  <div class="qualification__data">
+                     <div>
+                        <h3 class="qualification__title">FullStack Bootcamp</h3>
+                        <span class="qualification__subtitle">Educación IT</span>
+                        <div class="qualification__calendar">
+                           <i class="uil uil-calendar-alt"></i>
+                           2021
+                        </div>
+                     </div>
+                     <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                     </div>
+                  </div>
+
+                  <!--Qualification 4-->
+                  <div class="qualification__data">
+                     <div></div>
+
+                     <div>
+                        <span class="qualification__rounder"></span>
+                        <!--span class="qualification__line"></span-->
+                     </div>
+
+                     <div>
+                        <h3 class="qualification__title">Profesor de Inglés</h3>
+                        <span class="qualification__subtitle">Asociación Cultural Argentino Británica de Salta</span>
+                        <div class="qualification__calendar">
+                           <i class="uil uil-calendar-alt"></i>
+                           2010-2017
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+
+               <!--Qualification Content 2-->
+               <div class="qualification__content" data-content id="work">
+
+                  <!--Qualification 1-->
+                  <div class="qualification__data">
+                     <div>
+                        <h3 class="qualification__title">Proyectos Personales</h3>
+                        <div class="qualification__calendar">
+                           <i class="uil uil-calendar-alt"></i>
+                           2020 - En curso
+                        </div>
+                     </div>
+                     <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                     </div>
+                  </div>
+
+               </div>
+
+            </div>
+         </div>
+
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+
+
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+
+
+      </section>
+
+      <!--==================== PROJECT IN MIND ====================-->
+      <section class="project section">
+
+
+      </section>
+
+      <!--==================== TESTIMONIAL ====================-->
+      <section class="testimonial section">
+
+
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+
+
+      </section>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+
+
+   </footer>
+
+   <!--==================== SCROLL TOP ====================-->
+
+
+   <!--==================== SWIPER JS ====================-->
+   <script src="js/swiper-bundle.min.js"></script>
+
+   <!--==================== MAIN JS ====================-->
+   <script src="js/main.js"></script>
+</body>
+
+</html>
