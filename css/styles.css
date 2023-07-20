@@ -368,7 +368,7 @@ img {
   width: 200px;
   border-radius: 0.5rem;
   justify-self: center;
-  align-self: center;
+  align-self: self-start;
 }
 
 .about__description {
